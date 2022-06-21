@@ -20,7 +20,7 @@ class bot:
         for a in range(iteration, 1133827315385150725554176, 100):
             if a % 1000 == 0:
                 print(a)
-            web = str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)]) + str(list[random.randint(0,61)])
+            web = str(list[a/62]) + str(list[a/3844]) + str(list[a/238328]) + str(list[a/14776336]) + str(list[a/916132832]) + str(list[a/56800235584]) + str(list[a/3521614606208]) + str(list[a/218340105584896]) + str(list[a/13537086546263552]) + str(list[a/839299365868340224]) + str(list[a/520365606838370938888]) + str(list[a/3226266762397899821056]) + str(list[a/200028539268669788905472]) + str(list[a/12401769434657526912139264]) + str(list[a/768909704948766668552634368]) + str(list[a/47672401706823533450263330816]) + str(list[a/1525516854618353070408426586112])
 
             response = requests.get('https://forms.gle/{}'.format(web))
             if response.status_code == 200:
