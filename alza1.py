@@ -16,7 +16,7 @@ def forms(iteration):
     CHROME_DRIVER_PATH = "c:/Users/ambro/webdrivers/chromedriver.exe"   # add your chromedriver path
     browserOptions = Options()
     driver = webdriver.Chrome(executable_path=CHROME_DRIVER_PATH,options=browserOptions)
-    driver.get("https:// /")    
+    driver.get("https://www.alza.cz/Order1.htm")    
 
 
 
